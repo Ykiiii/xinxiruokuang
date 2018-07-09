@@ -19,7 +19,6 @@ import java.util.regex.Pattern;
 public class readTxt2String {
     public static void main(String[] args) throws IOException, Exception, InterruptedException {
         File f = new File("D:/test.txt");
-
         FileReader fr = new FileReader(f);
         BufferedReader br = new BufferedReader(fr);
         String sourceTXT = "";
