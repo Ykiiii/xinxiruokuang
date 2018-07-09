@@ -8,6 +8,7 @@ public class testJava2Sql {
     static final String PASS = "123456";
     public static void main (String[] args){
         Connection conn = null;
+
         Statement stmt = null;
 
         try {
